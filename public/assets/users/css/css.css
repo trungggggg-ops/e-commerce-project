@@ -1,0 +1,162 @@
+
+
+
+.box50{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+}
+.text-yellow{
+  text-decoration: none;
+    color: rgb(84, 84, 84);
+    margin: 10px;
+    font-weight: bold;
+}
+.text-yellow:hover{
+  color: yellow;
+}
+
+  .backround-red{
+    background: #ff5431 !important; 
+  }
+.backround-yellow{
+    background: #ffd044 !important;
+}
+.backround-mauxanh{
+    background: #afd6dd !important  ;
+
+}
+
+/* hover */
+
+.product-card {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+
+  .product-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .product-card:hover {
+    transform: scale(1.030); /* Phóng to hình ảnh khi hover */
+  }
+ 
+  .product-card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .product-card:hover .overlay {
+    opacity: 1;
+  }
+
+  .product-card .overlay .icon {
+    color: #ccc   ;
+    font-size: 18px;
+    margin: 5px;
+    transition: transform 0.3s ease; /* Thêm hiệu ứng khi hover vào icon */
+  }
+
+  .product-card .overlay .icon:hover {
+    color: black  ;
+    transform: scale(1.2); /* Phóng to icon khi hover */
+  }
+  .product-card a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(84, 84, 84);
+
+    transition: color 0.3s; /* Thêm hiệu ứng chuyển đổi màu trong 0.3 giây */
+  }
+  .product-card h4{
+    font-weight: bold;
+    color: red;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  
+  
+  /* CSS cho khi hover vào phần tử a trong class product-card */
+  /* .product-card:hover a {
+    color:rgb(232, 232, 3);
+  } */
+
+  /* trang chi tiet` giay` */
+  .product-card {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+
+  .product-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .product-card:hover {
+    transform: scale(1.1);
+  }
+
+  .thumbnail-images img {
+    width: 75px;
+    height: auto;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  .thumbnail-images img:hover {
+    border: 2px solid blue;
+  }
+
+  /* footer */
+  .content_footer ul li {
+    list-style: none;
+  }
+  .content_footer ul li a{
+    text-decoration: none;
+    color: #ccc;
+  }
+  .content_footer ul li a:hover{
+    color: yellow;
+  }
+
+   /* trang san pham */
+   .hover_sp:hover{
+    background: #ffd044;
+   }
+
+   .hover_sp1{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+   }
+   .hover_sp1:hover{
+    list-style: none;
+    text-decoration: none;
+    background: #ffd044;
+    color: white;
+   }
+
+
+   /* css phan trang */
+   
